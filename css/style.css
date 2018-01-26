@@ -4,3 +4,7 @@
 #bleu{
 	background-color : blue;
 }
+@viewport {
+   width: device-width;
+   zoom: 1;
+}
