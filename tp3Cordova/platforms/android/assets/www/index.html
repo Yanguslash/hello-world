@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 730px) and (max-width: 1240px)" href="css/style_tablette.css">
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 720px)" href="css/style_portable.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+    <title>Index</title>
+  </head>
+  <body>
+    <header>
+      <img class="burger" src="img/burgerfail2.png" alt="menu">
+      <a href="tel:3919"><img class="tel" src="img/tel2.png" alt="tel"></a>
+      <img src="img/logo.jpg" alt="logo">
+      <div id="menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">Titre</a></li>
+          <li class="contactli"><a href="contact.html">Contact</a></li>
+          <li><input type="search" name="rechercher" value="" placeholder="Rechercher">
+            <button type="button" name="button">OK</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+      <img id="banniere" src="img/bambou.jpg" alt="banniere panda roux">
+      <div id="contenu">
+      <h1>Le panda roux</h1>
+      <p>Le petit panda est de la taille d'un renard : le corps sans la queue mesure de 50 à 65 cm, la queue mesure de 30 à 60 cm. Les mâles pèsent de 3,5 à 6,2 kg et les femelles de 3 à 6 kg9,10.</p>
+      <p>Le bout des oreilles, les sourcils et les joues sont blancs tandis que le museau et la gueule sont noirs ; une bande brune raye le museau et les joues ; les courtes pattes sont noires et le reste du corps est roux. Sa queue, d’une quarantaine de centimètres, s'orne de neuf bandes blanches et jaunes et finit par une touffe noire. Ses griffes puissantes lui permettent de descendre des arbres la tête en bas.</p>
+      <p>À l'instar des pandas géants avec lesquels ils partagent de nombreux territoires, les petits pandas ont un régime alimentaire principalement végétarien. Ils mangent de grandes quantités de bambous, mais leur régime alimentaire comprend également des fruits, des racines, des glands et du lichen. Au printemps, ils se nourrissent aussi d’œufs et d’oisillons.</p>
+      <p>Leur aire de répartition est vaste : elle couvre à l'ouest certaines parties de l'Himalaya (Népal, Sikkim indien, Bhoutan) et, à l'est, le nord de la Birmanie et les provinces chinoises du Tibet, Sichuan et du Yunnan.</p>
+      <div id="img">
+        <div class="">
+          <img id="img1" src="img/debile.jpg" alt="panda roux debile">
+          <h2>Michel</h2>
+          <p>Panda roux debile</p>
+        </div>
+        <div class="">
+          <img id="img2" src="img/pandarigolo.jpg" alt="panda qui rigole">
+          <h2>Dédé</h2>
+          <p>Panda roux qui rigole</p>
+        </div>
+        <div class="">
+          <img id="img3" src="img/allonge.jpg" alt="panda roux allongé">
+          <h2>Gerard</h2>
+          <p>Panda roux allongé</p>
+        </div>
+        <div class="">
+          <img id="img4" src="img/panda.jpg" alt="panda roux">
+          <h2>Jean claude</h2>
+          <p>Panda roux qui fait un clin d'oeil</p>
+        </div>
+      </div>
+      <div id="div">
+        <div id="carte">
+          <h2>Zone d'habitation</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6960334.839377287!2d84.25308813435015!3d31.58998788991674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3761317e9c4a2cc1%3A0x1fc12c628413da99!2sTibet%2C+Chine!5e0!3m2!1sfr!2sfr!4v1486560741163" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <form id="formulaire" action="index.html" method="post">
+          <h2>Inscription</h2>
+          <p class="p1">
+            <input class="prenom" type="text" name="prenom" value="" placeholder="prenom">
+            <input class="nom" type="text" name="nom" value="" placeholder="nom">
+          </p>
+          <p class="p2">
+            <input class="date" type="date" name="" value="">
+            <input class="naissance" type="text" name="" value="" placeholder="ville_naissance">
+          </p>
+          <input class="mail" type="email" name="" value="" placeholder="mail">
+          <p><input class="photo" type="file" name="" value="" placeholder="photo" accept="image/*" capture></p>
+          <textarea class="message" name="message" placeholder="message"></textarea>
+          <p><button class="envoyer" type="button" name="button">Envoyer</button></p>
+        </form>
+      </div>
+      <div id="resultat">
+        <button class="afficher" type="button" name="button">Afficher</button>
+        <button class="effacer" type="button" name="button">effacer</button>
+        <p class="resprenom"></p>
+        <p class="resnom"></p>
+        <p class="resdate"></p>
+        <p class="resnaissance"></p>
+        <p class="resmail"></p>
+        <p class="resmessage"></p>
+      </div>
+    </div>
+    <footer><p>Huyghes Quentin TPC</p></footer>
+  </body>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</html>

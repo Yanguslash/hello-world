@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 730px) and (max-width: 1240px)" href="css/style_tablette.css">
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 720px)" href="css/style_portable.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="retro-pinned-tab.svg" color="#5bbad5">
+
+    <title>Index</title>
+  </head>
+  <body>
+    <header>
+      <img class="burger" src="img/burgerfail2.png" alt="menu">
+      <a href="tel:3919"><img class="tel" src="img/tel2.png" alt="tel"></a>
+      <img src="img/logo.jpg" alt="logo">
+      <div id="menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">Titre</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><input type="search" name="rechercher" value="" placeholder="Rechercher">
+            <button type="button" name="button">OK</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+      <img id="banniere" src="img/arcade.jpg" alt="banniere arcade">
+      <div id="contenu">
+      <h1>Le Retro Gaming</h1>
+      <p>Bienvenue sur ce site dédié au Retrogaming. Ce site a été conçu pour une navigation facile. Vous pourrez y trouver l'histoire des consoles, quelques anecdotes et secret de developpements, plusieurs images de jeux pour savoir quand même à quoi ressemble les jeux dont nous parlons et une selection de musiques de jeux video qui ont marqué leur époque.</p>
+      <div id="img">
+        <div class="">
+          <img id="img1" src="img/screen.jpg" alt="screenshot">
+          <h2>Screenshot</h2>
+          <p>Image de jeu</p>
+        </div>
+        <div class="">
+          <img id="img2" src="img/ost.jpg" alt="ost">
+          <h2>Soundtrack</h2>
+          <p>Musique de jeu</p>
+        </div>
+        <div class="">
+          <img id="img3" src="img/ET.jpg" alt="ET">
+          <h2>Article</h2>
+          <p>Cartouches de ET dans le desert</p>
+        </div>
+        <div class="">
+          <img id="img4" src="img/arcade2.jpg" alt="arcade">
+          <h2>Console</h2>
+          <p>Histoire des consoles</p>
+        </div>
+      </div>
+      <div id="div">
+        <div id="carte">
+          <h2>Random</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.5417316710286!2d1.8811448154607635!3d50.95068757954755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc4086a1904405%3A0x7e0ccba33a6e4940!2sIUT+du+Littoral+C%C3%B4te+d&#39;Opale!5e0!3m2!1sfr!2sfr!4v1522313401273" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <form id="formulaire" action="index.html" method="post">
+          <h2>Contactez-nous</h2>
+          <p class="p1">
+            <input class="prenom" type="text" name="prenom" value="" placeholder="prenom">
+            <input class="nom" type="text" name="nom" value="" placeholder="nom">
+          </p>
+          <p class="p2">
+            <input class="date" type="date" name="" value="">
+            <input class="naissance" type="text" name="" value="" placeholder="ville_naissance">
+          </p>
+          <input class="mail" type="email" name="" value="" placeholder="mail">
+          <p><input class="photo" type="file" name="" value="" placeholder="photo" accept="image/*" capture></p>
+          <textarea class="message" name="message" placeholder="message"></textarea>
+          <p><button class="envoyer" type="button" name="button">Envoyer</button></p>
+        </form>
+      </div>
+      <div id="resultat">
+        <button class="afficher" type="button" name="button">Afficher</button>
+        <button class="effacer" type="button" name="button">Effacer</button>
+        <p class="resprenom"></p>
+        <p class="resnom"></p>
+        <p class="resdate"></p>
+        <p class="resnaissance"></p>
+        <p class="resmail"></p>
+        <p class="resmessage"></p>
+      </div>
+    </div>
+    <footer>
+      <p>Wallyn Nicolas TPC</p>
+    </footer>
+  </body>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</html>
